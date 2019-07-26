@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".reminders_ui">
+
+    <EditText
+        android:id="@+id/medName"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:drawableLeft="@drawable/ic_add_box_black_24dp"
+        android:hint="  Enter med name "
+        android:textAlignment="center"
+        android:textSize="22dp"
+        android:tint="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/dosage"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="110dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:drawableLeft="@drawable/ic_add_box_black_24dp"
+        android:hint=" Enter dosage "
+        android:textAlignment="center"
+        android:textSize="22dp" />
+
+
+    <Button
+        android:id="@+id/timePickerButton"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text=" Choose the alarm time "
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/setTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="270dp"
+        android:text="No alarm set"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:id="@+id/okBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text=" Set alarm "
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/myRemindersBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text=" My reminders "
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+
+</RelativeLayout>
